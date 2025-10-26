@@ -25,4 +25,16 @@ if not current:
     print('Turning light on')
 
 
-#loops - For loops, while loops, 
+#Match statement
+day = "Friday"
+match day:
+	case "Monday":
+		print("Today is Monday. Beginning of week")
+	case "Friday" :
+		print("Issa Friiidayyy")
+	case "Saturday" | "Sunday": #The | is representing an or condition in a match statement as would be in if else or
+		print("Almost mondayyyy")
+	case *_:
+		print("unknown ")
+
+
