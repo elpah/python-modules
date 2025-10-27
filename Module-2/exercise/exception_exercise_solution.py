@@ -6,6 +6,7 @@ try:
 except:
     print("Item not found")
 
+
 def divide_by(a, b):
     try:
         return a / b
@@ -16,7 +17,6 @@ def divide_by(a, b):
 
 ans = divide_by(10,0)
 print(ans)
-
 
 
     try:
