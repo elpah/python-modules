@@ -44,4 +44,4 @@ print("After deleting first item:", list1)
 
 #we can also iterate through a list using a for loop
 for item in list2:
-    print("List2 item:", item)
+    print("List2 item:", item)\
