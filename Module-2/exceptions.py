@@ -1,6 +1,5 @@
 def divide(num1, num2):
-    return a/b
-
+    return num1/num2
 
 try:
      divide(10,0)
@@ -17,7 +16,7 @@ except Exception as e:
 # we can also get the exception message.
 try:
     divide(10,0)
-except Exception: as e:
+except Exception as e:
     print("exception message: ", e)
 
 # We can also get exception class

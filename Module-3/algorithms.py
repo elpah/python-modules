@@ -17,7 +17,7 @@ print(isPalindrom("hello"))
 
 #Recursion - a method of solving problem where a function will call itself until a base condition is met.
 def factorial(n):
-    if n = 0:
+    if n == 0:
         return 1
     else:
         return (n * factorial(n-1))

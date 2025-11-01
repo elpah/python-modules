@@ -19,9 +19,9 @@ ans = divide_by(10,0)
 print(ans)
 
 
-    try:
-        with open('file_does_not_exist.txt', 'r') as file:
+try:
+    with open('file_does_not_exist.txt', 'r') as file:
         print(file.read())
-    except:
-        print("Could not locate or read the file.")
+except:
+    print("Could not locate or read the file.")
 
